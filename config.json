@@ -1,0 +1,21 @@
+{
+  "vagrant": {
+    "db": {
+      "name": "wp",
+      "user": "root",
+      "password": "root"
+    },
+    "vagrant": {
+      "box": "scotch/box",
+      "ip": "192.168.220.69",
+      "hostname": "wp.dev",
+      "synced_folder": "/var/www"
+    },
+    "gulp": {
+      "browser_sync": {
+        "open": "true",
+        "port": "5000"
+      }
+    }
+  }
+}
